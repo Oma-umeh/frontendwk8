@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>functons</title>
+</head>
+<body>
+    <section class="first">
+        <ul>
+            <li>
+                <label for="eng">English</label>
+                <input type="number" name="eng" id="eng" placeholder="english score" min="1" max="100">
+            </li>
+            <li>
+                <label for="mat">Maths</label>
+                <input type="number" name="mat" id="mat" placeholder="math score" min="1" max="100">
+            </li>
+            <li>
+                <button>Check Grade</button>
+            </li>
+        </ul>
+    </section>
+    <section class="last">
+
+    </section>
+</body>
+<script src="./function.js"></script>
+<script src="./conditionals.js"></script>
+<script src="./grade.js"></script>
+</html>
