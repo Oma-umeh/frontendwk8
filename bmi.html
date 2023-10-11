@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI calculator</title>
+    <link rel="stylesheet" href="./output.css">
+</head>
+<body>
+    <h1 class="text-center uppercase p-4 ">know your Body Mass index today</h1>
+   
+   
+    <main class="grid grid-cols-2 bg-blue-950 text-white h-screen">
+
+       <section class="bmi px-4">
+
+        <!-- <form> -->
+
+            <ul>
+                <li class="py-5">
+                    <label for="he">Height: </label>
+                    <input class="outline-none mx-2 border-b-4 border-b-orange-500 bg-transparent border-solid" type="number" name="he" id="he" placeholder="height is meters" required>
+                </li>
+                <li class="py-5">
+                    <label for="we">Weight</label>
+                    <input class="outline-none mx-2 border-b-4 border-b-orange-500 bg-transparent border-solid" type="number" name="we" id="we" placeholder="weight in kg" required>
+                </li>
+                <li class="py-5">
+                    <button class="bg-orange-500 text-blue-800 rounded-2xl w-[60%] py-2">Calculate</button>
+                </li>
+            </ul>
+        <!-- </form> -->
+        </section>
+        <section class="bmi">
+            
+        </section>
+    </main>
+</body>
+
+<script src="./bmi.js"></script>
+</html>

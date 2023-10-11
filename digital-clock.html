@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital-Clock</title>
+    <link rel="stylesheet" href="./output.css">
+</head>
+
+<body class="bg-blue-950 h-screen flex flex-col items-center justify-center">
+    <h1 class="my-4 text-white uppercase text-3xl tracking-[25px]">Digital-Clock</h1>
+    <main>
+        <section class="flex space-x-2">
+            <div class="flex flex-col items-center text-white text-center justify-center capitalize">
+                <span class="py-[20px] bg-orange-500 w-[100px]" id="Hour">11</span>
+                <span class="py-[15px] bg-red-500 w-[100px]">Hour</span>
+            </div>
+            <div class="flex flex-col items-center text-white text-center justify-center capitalize">
+                <span class="py-[20px] bg-orange-500 w-[100px]" id="Mins">44</span>
+                <span class="py-[15px] bg-red-500 w-[100px]">Mins</span>
+            </div>
+            <div class="flex flex-col items-center text-white text-center justify-center capitalize">
+                <span class="py-[20px] bg-orange-500 w-[100px]" id="Secs">5</span>
+                <span class="py-[15px] bg-red-500 w-[100px]">Secs</span>
+            </div>
+            <div class="flex flex-col items-center text-white text-center justify-center capitalize">
+                <span class="py-[20px] bg-orange-500 w-[100px]" id="mil"></span>
+                <span class="py-[15px] bg-red-500 w-[100px]">milliseconds</span>
+            </div>
+            <div class="flex flex-col items-center text-white text-center justify-center capitalize">
+                <span class="py-[20px] bg-fuchsia-500 w-[100px]" id="Status">pm</span>
+            </div>
+            </div>
+        </section>
+    </main>
+</body>
+<script src="./digital.js"></script>
+</html>

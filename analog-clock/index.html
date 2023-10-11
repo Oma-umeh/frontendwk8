@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analog Clock</title>
+    <link rel="stylesheet" href="../output.css">
+</head>
+<body class="flex items-center justify-center h-screen">
+    <div class="relative w-48 h-48">
+        <!-- Clock face -->
+        <div class="absolute w-full h-full bg-white rounded-full border-4 border-gray-800"></div>
+        <!-- Clock numbers -->
+        <div id="clockNumbers" class="absolute w-full h-full flex justify-center items-center">
+            <!-- Clock numbers will be generated here -->
+        </div>
+        <!-- Clock hands -->
+        <div id="hourHand" class="absolute w-1 h-16 bg-black transform -translate-x-1/2 origin-center" style="left: 50%; top: 50%;"></div>
+        <div id="minHand" class="absolute w-1 h-24 bg-black transform -translate-x-1/2 origin-center" style="left: 50%; top: 50%;"></div>
+        <div id="secHand" class="absolute w-1 h-28 bg-red-600 transform -translate-x-1/2 origin-center" style="left: 50%; top: 50%;"></div>
+    </div>
+
+<script src="./analog.js"></script>
+</body>
+</html>
